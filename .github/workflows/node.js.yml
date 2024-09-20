@@ -27,3 +27,4 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - run: curl "https://api.render.com/deploy/srv-crmtui3v2p9s73fc2srg?key=LZtfm9KuN3E"
